@@ -159,6 +159,22 @@ var App = {
                     new Alternative("Professor ou psicólogo", 0, 0, 3)
                 ]
             ),
+            new Question(
+                "Como você gosta de resolver problemas?",
+                [
+                    new Alternative("Usando lógica e matemática", 3, 0, 1),
+                    new Alternative("Pesquisando na área biológica ou médica", 0, 3, 0),
+                    new Alternative("Analisando questões sociais e culturais", 0, 0, 3)
+                ]
+            ),
+            new Question(
+                "Qual é sua maior motivação ao aprender algo novo?",
+                [
+                    new Alternative("Entender como as coisas funcionam", 3, 0, 0),
+                    new Alternative("Contribuir para o bem-estar das pessoas", 0, 3, 0),
+                    new Alternative("Compreender mais sobre a sociedade", 0, 0, 3)
+                ]
+            )
         ];
 
         this.questions = questions;
