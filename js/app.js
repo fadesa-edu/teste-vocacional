@@ -135,7 +135,30 @@ var App = {
                     new Alternative("Esportes, Biologia e Química", 0, 2, 0)
                 ]
             ),
-           
+            new Question(
+                "Que tipo de atividades você prefere realizar no tempo livre?",
+                [
+                    new Alternative("Jogos de lógica ou xadrez", 2, 0, 1),
+                    new Alternative("Atividades ao ar livre, como trilhas ou jardinagem", 0, 3, 0),
+                    new Alternative("Ler livros de história ou literatura", 0, 0, 3)
+                ]
+            ),
+            new Question(
+                "Se você fosse escrever um livro, ele seria sobre:",
+                [
+                    new Alternative("Tecnologia e invenções", 3, 0, 1),
+                    new Alternative("Natureza e saúde", 0, 3, 0),
+                    new Alternative("Cultura e sociedade", 0, 0, 3)
+                ]
+            ),
+            new Question(
+                "Qual dessas profissões mais combina com você?",
+                [
+                    new Alternative("Engenheiro ou cientista", 3, 0, 0),
+                    new Alternative("Médico ou veterinário", 0, 3, 0),
+                    new Alternative("Professor ou psicólogo", 0, 0, 3)
+                ]
+            ),
         ];
 
         this.questions = questions;
